@@ -24,6 +24,6 @@ class Test{
         }
         public static void main(String[] args) {
            fun();
-           fun(2,3)// 2 and 3 are argument;
+           fun(2,3)// 2 and 3 are argument.Arguments are actual.;
         }
     }
