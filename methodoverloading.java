@@ -18,11 +18,12 @@ class Test{
         static void fun(){
             System.out.println("hey");
         }
-        static void fun(int x,int y){
+        static void fun(int x,int y) //x and y are parameter.
+  {
             System.out.println("sum "+ (x+y) );
         }
         public static void main(String[] args) {
            fun();
-           fun(2,3);
+           fun(2,3)// 2 and 3 are argument;
         }
     }
