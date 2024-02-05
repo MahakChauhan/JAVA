@@ -14,7 +14,7 @@ class Test{
         change2(a);
         System.out.println(a[0]);
         */
-        // Two or more methods can have same name but different parameters ,its called method overloading .
+        // Two or more methods can have same name but different parameters ,its called method overloading . It can not be performed by changing the return type of method
         static void fun(){
             System.out.println("hey");
         }
