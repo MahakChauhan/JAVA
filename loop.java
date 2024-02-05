@@ -17,10 +17,9 @@ class Test{
             System.out.println(a1);
             a1++;
         }while(a1<6);
-//for loop
+     //for loop
         for(int i=0;i<6;i++){
             System.out.println(i);
         }
     }
-
 }
