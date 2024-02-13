@@ -1,19 +1,19 @@
 Constructors in Java
-Constructors in Java : 
-Constructors are similar to methods,, but they are used to initialize an object.
-Constructors do not have any return type(not even void).
-Every time we create an object by using the new() keyword, a constructor is called.
+**Constructors in Java **: 
+1.Constructors are similar to methods,, but they are used to initialize an object.
+2.Constructors do not have any return type(not even void).
+3.Every time we create an object by using the new() keyword, a constructor is called.
 If we do not create a constructor by ourself, then the default constructor(created by Java compiler) is called.
-Rules for creating a Constructor :
-The class name and constructor name should be the same.
-It must have no explicit return type.
-It can not be abstract, static, final, and synchronized.
+**Rules for creating a Constructor :**
+*The class name and constructor name should be the same.
+*It must have no explicit return type.
+*It can not be abstract, static, final, and synchronized.
 Types of Constructors in Java :
 There are two types of constructors in Java :
 
-Defaut constructor : A constructor with 0 parameters is known as default constructor.
+*Defaut constructor : A constructor with 0 parameters is known as default constructor.
 Syntax :
-<class_name>(){
+**<class_name>(){
 //code to be executed on the execution of the constructor
 }  
 Example :
@@ -28,12 +28,12 @@ public class CWH_constructors {
         CWH obj1 = new CWH();
 
     }
-}
+}**
 Output :
 This is the default constructor of CWH class.
 In the above code, CWH() is the constructor of class CWH The CWH() constructor is invoked automatically with the creation of object ob1.
 
-Paramerterized constructor : A constructor with some specified number of parameters is known as a parameterized constructor.
+**Paramerterized* constructor :** A constructor with some specified number of parameters is known as a parameterized constructor.
 Syntax :
 <class-name>(<data-type> param1, <data-type> param2,......){
 //code to be executed on the invocation of the constructor
@@ -103,17 +103,4 @@ The id of the second employee is : 2
 The salary of second employee is : 70000
  
 
-Quick quiz: Overloaded the employee constructor to initialize the salary to Rs 10,000
 
-Source code as described in the video:
-package com.company;
-
-class MyMainEmployee{
-    private int id;
-    private String name;
-
-    public MyMainEmployee(){
-        id = 0;
-        name = "Your-Name-Here";
-    }
-    public MyMainEmployee(String myName, int myId){
